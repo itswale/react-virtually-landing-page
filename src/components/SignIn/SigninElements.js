@@ -20,7 +20,7 @@ export const Container = styled.div`
 export const FormWrap = styled.div`
     height: 100%;
     display: flex;
-    flex-duration: column;
+    flex-direction: column;
     justify-content: center;
 
     @media screen and (max-width: 400px) {
@@ -92,7 +92,7 @@ export const FormInput = styled.input`
 `;
 
 export const FormButton = styled.button`
-    background: #011bf71;
+    background: #01bf71;
     padding: 16px 0;
     border: none;
     border-radius: 4px;
